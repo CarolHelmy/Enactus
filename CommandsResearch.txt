@@ -1,0 +1,15 @@
+1) git config is used to configrate and identify who you are to set the default identity
+that makes you able to push files to remote
+for example: git config --global user.email "email@ddd.com" is used to enter your email
+	     git config --global user.name "name" is used to identify your name
+
+
+2) git init is used to initialize a new local empty repository which means that it will be created
+in the main or in the same defined path in the cmd and it will creates a folder called ".git"
+
+
+3) git merge takes the updated branchs or copies and collect them in one single branch.
+
+
+4) git remote is responsible for all interactions with other remote repositories that makes you able to view, 
+create and delete connections with other repos
