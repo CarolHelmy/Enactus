@@ -1,0 +1,5 @@
+to make a button using html we need to use the button tag "<button>"
+then we will write the button name between the opening tag "<button>" and the closing tag "</button>"
+like this: 
+        "<button>BUTTON_NAME</button>"
+then refresh the page and 🥳 you've got the button done
