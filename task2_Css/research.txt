@@ -1,0 +1,57 @@
+1- CSS selectors:
+    a- selector by ID
+    ex: #id1{} => this means that all the content inside the element that has id called "id1" will have the properties inside "{}"
+    knowing that the id specifies only one element. only one div for example can have id called "id1" for example because 
+    the id attribute's main function is to define only one element in html
+    to call/access an element using id selector in css we use "#" before the id name
+    ex: #id2{
+        color: red;
+    }
+    this means that all the text inside "#id2" will be red.
+    id is also used as a bookmark to make a reference link in the same page in HTML
+    ex:
+    <p id="p1">page 1</p>   <!-- this is a bookmark on page 1 -->
+    <a href="#p1">go to page 1</a>   <!-- when the user clicks on "go to page 1" it will automatically go to page 1 that has the bookmark by id -->
+
+
+    b- selector by class
+    ex: .class1{} => this means that all the elements with class called "class1" will contain all the properties inside the curly brackets
+    like if we added "display:flex;" all the contet inside .class1 will be in the same line:
+    .class1{
+        display: flex;
+    }
+    NOTE: unlike the id, a class name can be used by multiple HTML elements while id name is only used once.
+
+
+    c- Type selector
+    ex: body{} => all the body element will have the same style inside "{}"
+
+
+    d- Type.class selector
+    ex: body.class3{} => this means that all the body element with class "class3" will have the style inside "{}"
+
+
+    e- Universal selector
+    ex: *{} => written as a single asterisk and means that all the elements inside the html file linked with this css file 
+    will have this style. It's mostly used for font-family, margin and padding to be uniform for all page elements.
+
+
+
+
+2- display attributes
+    a- flex: 
+    used to display element horizontally in the same line, if the parent element has a "display:flex;"
+    the children can have "flex:1;" for child1 and "flex: 2;" for child2 for example and this means that
+    the first child have half the space that is taken from the parent and divided by both of the children and 
+    this is one of the most usefull functions of "display: flex;"
+
+
+    b- inline:
+    used to display elements in the same level horizontally but it only contain the line and it only has the dimensions of the elements as it is actually without adding more space on it by padding,
+    for example <span> is an inline element by default, if we highlighted it, it highlighs only the text 
+    but if we did the same thing with a <div> it will highligh the entire line even if it has no text.
+    elements that are inline by default: ( span, a, img)
+
+    c- inline-block:
+    used to display elements in the same level horizontally but it adds more space by padding. it starts by a new line and takes all the available space.
+    elements that are inline-block by default: (h1, div, p, form, header, footer)
